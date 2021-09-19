@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Practice Suite">
 
-	<test name="Testing">
+	<test name="Testing1">
 		<parameter name="browser" value="Chrome" />
 		<classes>
 			<class name="com.MyTests.LoginTest"></class>
