@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suite" duration-ms="15041" started-at="2021-09-19T06:39:00Z" finished-at="2021-09-19T06:39:15Z">
+    <groups>
+    </groups>
+    <test name="Testing" duration-ms="15041" started-at="2021-09-19T06:39:00Z" finished-at="2021-09-19T06:39:15Z">
+      <class name="com.MyTests.LoginTest">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.MyTests.LoginTest@6e0e048a]" name="setUpTest" is-config="true" duration-ms="13799" started-at="2021-09-19T06:39:00Z" finished-at="2021-09-19T06:39:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.MyTests.LoginTest@6e0e048a]" name="verifyLoginPageTitleTest" duration-ms="47" started-at="2021-09-19T06:39:13Z" finished-at="2021-09-19T06:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MyTests.LoginTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="1166" started-at="2021-09-19T06:39:14Z" finished-at="2021-09-19T06:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MyTests.LoginTest -->
+    </test> <!-- Testing -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
