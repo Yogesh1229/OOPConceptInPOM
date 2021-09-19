@@ -21,14 +21,14 @@ public class LoginTest extends BaseTest {
 		Assert.assertEquals(title, "ToolsQA");
 	}
 //	
-//	@Test(priority = 2)
-//	public void verifyLoginPageHeaderTest() {
-//		log.info("Login page header test");
-//		LoginPage loginPage = abstractPage.getInstance(LoginPage.class);
-//		String header = loginPage.getLoginHeader();
-//		System.out.println("Login header: " + header);
-//		Assert.assertEquals(header, "Login");
-//	}
+	@Test(priority = 2)
+	public void verifyLoginPageHeaderTest() {
+		log.info("Login page header test");
+		LoginPage loginPage = abstractPage.getInstance(LoginPage.class);
+		String header = loginPage.getLoginHeader();
+		System.out.println("Login header: " + header);
+		Assert.assertEquals(header, "Login");
+	}
 //	
 //	@Test(priority = 3, enabled = true)
 //	public void doLoginTest() {
