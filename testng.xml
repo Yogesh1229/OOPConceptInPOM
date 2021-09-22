@@ -3,7 +3,7 @@
 <suite name="Practice Suite">
 
 	<test name="Testing1">
-		<parameter name="browser" value="Chrome" />
+		<!-- <parameter name="browser" value="Chrome" /> -->
 		<classes>
 			<class name="com.MyTests.LoginTest"></class>
 		</classes>

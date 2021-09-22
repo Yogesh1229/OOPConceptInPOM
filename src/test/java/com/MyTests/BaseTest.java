@@ -18,7 +18,8 @@ public class BaseTest {
 	public AbstractPage abstractPage;
 	
 	@BeforeMethod
-	@Parameters(value={"browser"})
+	//@Parameters(value={"browser"})
+	@Parameters("Browser")
 	public void setUpTest(String browser) {
 		if(browser.equals("Chrome")) {
 			WebDriverManager.chromedriver().setup();
